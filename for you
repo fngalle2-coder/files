@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>You will do it &#x1F525;</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #fff;
+      font-size: 3em;
+    }
+    p {
+      color: #333;
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+    img {
+      margin-top: 30px;
+      max-width: 400px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+    .heart {
+      font-size: 5em;
+      color: red;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tu es spéciale pour moi 💕</h1>
+  <p>Je voulais te dire que tu me plais beaucoup…</p>
+  <div class="heart">❤️</div>
+
+  <!-- Image intégrée -->
+  <img src="Copilot_20260714_224744.png" alt="Photo spéciale">
+
+  <!-- Audio vidéo -->
+  <audio controls autoplay loop>
+    <source src="WhatsApp Video 2026-07-08 at 20.33.31.mp4" type="audio/mp4">
+    Ton navigateur ne supporte pas la vidéo/audio.
+  </audio>
+
+  <!-- Musique -->
+  <audio controls autoplay loop>
+    <source src="musique.mp3" type="audio/mpeg">
+    Ton navigateur ne supporte pas l'audio.
+  </audio>
+</body>
+</html>
